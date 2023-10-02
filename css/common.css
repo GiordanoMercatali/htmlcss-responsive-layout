@@ -4,6 +4,15 @@
     padding: 0.25rem 1rem;
 }
 
+/* ROW */
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 /*COLUMN*/
 .col{
     border-radius: 25px;
@@ -11,9 +20,22 @@
     padding: 2rem 1rem;
 }
 
+/* H2 */
+h2{
+    margin: 1.5rem 0;
+}
 
 /* H3 */
 h3{
     margin: 1.5rem 0;
 }
 
+/* IMAGES */
+img{
+    max-width: 100%;
+}
+
+/*SECTIONS*/
+section:nth-child(even){
+    background-color: rgb(149 147 230);
+}
