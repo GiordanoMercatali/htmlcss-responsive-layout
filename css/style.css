@@ -1,6 +1,6 @@
 /*Custom properties*/
 :root{
-    --debug-border: 1px solid black;
+    --debug-border: 2px solid black;
     /*border: var(--debug-border);*/
 }
 
@@ -54,4 +54,84 @@
     background-color: white;
     color: black;
 }
+
+/*MAIN*/
+/* HERO */
+
+/* HERO CONTENT */
+.hero-content{
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+/* ROW */
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* COLUMNS */
+.hero-content .col{
+    background-color: lightblue;
+    width: 100%;
+    /* debug */
+    /* height: 20rem; */
+}
+
+.hero-content i{
+    font-size: 64px;
+}
+
+.hero-content h3{
+    color: #005eff;
+}
+ /*BIGGER COLUMN*/
+.bigger.col{
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+    text-align: left;
+    /*DEBUG*/
+    /* height: 30rem; */
+}
+
+.bigger p{
+    margin-bottom: 2rem;
+}
+
+.hero .button{
+    background-color: #005eff;
+    color: white;
+    padding: 0.25rem 4rem;
+}
+
+.bigger .col-image{
+    margin-top: 64px;
+}
+
+.bigger img{
+    max-width: 100%;
+    position: relative;
+    top: 4px;
+    left: 0;
+}
+
+
+/* .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col2 {
+    background-color: aqua;
+    
+    width: calc(100% / 3 - 1rem);
+}
+
+.row2 .col2:first-child {
+    width: calc(100% / 3 * 2 - 1rem);
+} */
 

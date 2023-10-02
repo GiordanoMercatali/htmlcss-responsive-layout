@@ -1,4 +1,38 @@
+/*TABLET*/
+@media screen and (min-width: 768px){
+    
+    /*HERO*/
+    /* ROW */
+    .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: normal;
+    }
+
+    /* COLUMN */
+    .hero-content .col{
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .bigger.col{
+        width: calc(100% / 3 * 2 - 1rem);
+    }
+
+    .bigger img{
+        max-width: 50%;
+    }
+}
+
+/*DESKTOP*/
 @media screen and (min-width: 992px){
+    
+    /* HEADER */
+    .header{
+        padding: 2rem 10rem;
+    }
+    
+    /* NAV ITEMS */
     #disappear{
         display: none;
     }
@@ -7,7 +41,17 @@
         display: inline-block;
     }
 
-    .header{
-        padding: 2rem 10rem;
+    /* HERO */
+    /* COLUMN */
+    .bigger.col{
+        display: flex;
+    }
+
+    .bigger .col-image{
+        margin-top: 0;
+    }
+
+    .bigger img{
+        left: 10rem;
     }
 }

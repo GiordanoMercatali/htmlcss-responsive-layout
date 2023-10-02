@@ -3,3 +3,17 @@
     border-radius: 50px;
     padding: 0.25rem 1rem;
 }
+
+/*COLUMN*/
+.col{
+    border-radius: 25px;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+
+/* H3 */
+h3{
+    margin: 1.5rem 0;
+}
+
