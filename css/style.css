@@ -1,6 +1,7 @@
 /*Custom properties*/
 :root{
     --debug-border: 1px solid black;
+    /*border: var(--debug-border);*/
 }
 
 /*Reset*/
@@ -10,8 +11,47 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
+/*HEADER*/
+.header{
+    width: 100%;
+    background-color: rgb(47, 153, 220);
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*DEBUG*/
+    height: 4rem;
 }
+
+/*NAV*/
+.nav{
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /*DEBUG*/
+}
+
+/* nav list */
+#appear{
+    display: none;
+}
+
+.flex-ul{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.nav a{
+    color: white;
+}
+
+/*NAV BUTTON*/
+.nav .button{
+    background-color: white;
+    color: black;
+}
+
