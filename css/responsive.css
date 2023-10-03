@@ -100,15 +100,15 @@
 
     /*PLANNING*/
 
-    #planning .col, #planning .planning-item{
+    .planning-content .col, .planning-content .planning-item{
         width: calc(100% / 2);
     }
 
-    #planning img{
+    .planning-content img{
         max-width: 100%;
     }
     /*ROW*/
-    #planning .row{
+    .planning-content .row{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;

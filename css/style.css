@@ -75,7 +75,7 @@
     /* height: 20rem; */
 }
 
-.demo-content i{
+.demo-content i:not(.button i){
     font-size: 64px;
 }
 
@@ -95,7 +95,7 @@
     margin-bottom: 2rem;
 }
 
-#demo .button{
+.demo-content .button{
     background-color: #005eff;
     color: white;
     padding: 0.5rem 4rem;
@@ -120,7 +120,7 @@
 
 
 /* PLANNING COLUMNS */
-#planning .col{
+.planning-content .col{
     margin-top: 1rem;
     background-color: white;
     color: black;
@@ -129,7 +129,7 @@
     /* height: 20rem; */
 }
 
-#planning .col p{
+.planning-content .col p{
     font-style: italic;
 }
 
