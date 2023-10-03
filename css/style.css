@@ -171,3 +171,33 @@
     border-radius: 100%;
 }
 
+/* BENEFITS */
+.benefits-content{
+    text-align: center;
+}
+
+.benefits-content h2{
+    color: white;
+}
+
+/* BENEFITS COLUMNS */
+
+.benefits-content .col{
+    background-color: white;
+    text-align: left;
+}
+
+.benefits-content .col h2, .benefits-content .col h3{
+    color: rgb(149 147 230);
+}
+
+.benefits-content p{
+    margin-bottom: 2rem;
+}
+
+.benefits-content .button{
+    background-color: rgb(149 147 230);
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 3rem;
+}

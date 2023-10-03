@@ -33,7 +33,17 @@
     .partners-content .col{
         width: 100%;
     }
-    
+
+    /*BENEFITS SECTION*/
+    .benefits-content .row{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benefits-content .col{
+        width: calc((100% - 1rem) / 2);
+    }
 }
 
 /*DESKTOP*/
@@ -70,7 +80,7 @@
 
     /*SECTIONS*/
     [class*="content"]:not([class*="demo"]){
-        padding: 3rem 15rem;
+        padding: 3rem 10rem;
         margin: auto;
     }
 
@@ -101,6 +111,11 @@
     .partners-content .col-image, .partners-content .col-text{
         width: 50%;
     }
-
+    
+    /*BENEFITS SECTION*/
+    .benefits-content .col{
+        width: calc((100% - 2rem) / 3);
+        
+    }
    
 }
