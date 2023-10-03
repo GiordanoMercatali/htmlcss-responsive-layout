@@ -9,12 +9,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /*HEADER*/
 .header{
     width: 100%;
-    background-color: rgb(47, 153, 220);
+    background-color: #005eff;
     display: flex;
     justify-content: center;
     align-items: center;

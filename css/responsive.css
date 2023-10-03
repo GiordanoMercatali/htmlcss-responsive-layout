@@ -65,7 +65,7 @@
     
     /* HEADER */
     .nav{
-        padding: 3rem 10rem;
+        padding: 3rem 15rem;
     }
     
     /* NAV ITEMS */
@@ -89,7 +89,9 @@
 
     .bigger img{
         max-width: 100%;
-        top: 56px;
+        position: relative;
+        top: 4.5rem;
+        left: 0;
     }
 
     /*SECTIONS*/
