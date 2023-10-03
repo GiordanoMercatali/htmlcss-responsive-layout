@@ -23,10 +23,16 @@
         max-width: 50%;
     }
 
-    /*PLANNING SECTION*/
+    /*PLANNING*/
 
     
     /*PLANNING COLUMN*/
+
+    /*PARTNERS*/
+    /*PARTNERS COLUMNS*/
+    .partners-content .col{
+        width: 100%;
+    }
     
 }
 
@@ -63,10 +69,9 @@
     }
 
     /*SECTIONS*/
-    .planning-content{
+    [class*="content"]:not([class*="demo"]){
         padding: 3rem 15rem;
         margin: auto;
-        color: white;
     }
 
     /*PLANNING*/
@@ -85,5 +90,17 @@
         justify-content: center;
         align-items: flex-end;
     }
+
+    /*PARTNERS*/
     /*COLUMN*/
+    .partners-content .col{
+        display: flex;
+        text-align: left;
+    }
+
+    .partners-content .col-image, .partners-content .col-text{
+        width: 50%;
+    }
+
+   
 }

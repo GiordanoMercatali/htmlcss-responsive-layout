@@ -28,6 +28,7 @@ a{
 /* H2 */
 h2{
     margin: 1.5rem 0;
+    font-size: 32px;
 }
 
 /* H3 */
@@ -43,4 +44,10 @@ img{
 /*SECTIONS*/
 section.violet{
     background-color: rgb(149 147 230);
+}
+
+/*SECTIONS CONTENT*/
+[class*="content"]{
+    padding: 3rem 2rem;
+    margin: auto;
 }
