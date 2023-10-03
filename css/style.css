@@ -201,3 +201,37 @@
     font-weight: bold;
     padding: 0.8rem 3rem;
 }
+
+/* ABOUT US */
+.about-us-content{
+    margin: 0;
+}
+
+.about-us-content p{
+    margin-bottom: 2rem;
+}
+
+.about-us-content img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.about-us-content .fa-quote-left{
+    font-size: 48px;
+    position: relative;
+    bottom: 10rem;
+    right: 3rem;
+}
+
+.about-us-content h2, .about-us-content h3{
+    color: rgb(149 147 230);
+}
+
+.about-us-content .button{
+    background-color: rgb(149 147 230);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+}

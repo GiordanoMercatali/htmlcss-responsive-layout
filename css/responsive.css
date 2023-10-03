@@ -44,6 +44,20 @@
     .benefits-content .col{
         width: calc((100% - 1rem) / 2);
     }
+
+    /*ABOUT US*/
+    .about-us-content{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .first-item{
+        width: 60%;
+    }
+
+    .second-item{
+        width: 40%;
+    }
 }
 
 /*DESKTOP*/
