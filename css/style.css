@@ -266,4 +266,14 @@
 /*FOOTER*/
 .footer{
     background-color: #323232;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footer .underline{
+    color: rgb(149 147 230);
 }

@@ -47,7 +47,7 @@ section.violet{
 }
 
 /*SECTIONS CONTENT*/
-[class*="content"]{
+[class*="content"], .footer{
     padding: 3rem 2rem;
     margin: auto;
 }

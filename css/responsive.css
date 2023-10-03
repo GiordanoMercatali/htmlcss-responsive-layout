@@ -93,7 +93,7 @@
     }
 
     /*SECTIONS*/
-    [class*="content"]:not([class*="demo"]){
+    [class*="content"]:not([class*="demo"]), .footer{
         padding: 3rem 10rem;
         margin: auto;
     }
