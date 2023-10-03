@@ -1,3 +1,8 @@
+/* A */
+a{
+    text-decoration: none;
+}
+
 /*BUTTON*/
 .button{
     border-radius: 50px;
@@ -36,6 +41,6 @@ img{
 }
 
 /*SECTIONS*/
-section:nth-child(even){
+section.violet{
     background-color: rgb(149 147 230);
 }

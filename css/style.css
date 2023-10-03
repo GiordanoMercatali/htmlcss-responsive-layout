@@ -15,7 +15,7 @@
 .header{
     width: 100%;
     background-color: rgb(47, 153, 220);
-    padding: 2rem 2rem;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 /*NAV*/
 .nav{
     width: 100%;
-    padding: 1rem 0;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,11 @@
     /*DEBUG*/
 }
 
-/* nav list */
+/* NAV LIST*/
+#disappear{
+    font-size: 1.5rem;
+}
+
 #appear{
     display: none;
 }
@@ -56,27 +60,27 @@
 }
 
 /*MAIN*/
-/* HERO */
+/* DEMO */
 
-/* HERO CONTENT */
-.hero-content{
+/* DEMO CONTENT */
+.demo-content{
     padding: 3rem 2rem;
     margin: auto;
 }
 
-/* HERO COLUMNS */
-.hero-content .col{
+/* demo-section COLUMNS */
+.demo-content .col{
     background-color: lightblue;
     width: 100%;
     /* debug */
     /* height: 20rem; */
 }
 
-.hero-content i{
+.demo-content i{
     font-size: 64px;
 }
 
-.hero-content h3{
+.demo-content h3{
     color: #005eff;
 }
  /*BIGGER COLUMN*/
@@ -92,7 +96,7 @@
     margin-bottom: 2rem;
 }
 
-.hero .button{
+#demo .button{
     background-color: #005eff;
     color: white;
     padding: 0.5rem 4rem;
@@ -111,7 +115,7 @@
 
 /*SECTIONS*/
 
-.section-content{
+.planning-content{
     padding: 3rem 2rem;
     margin: auto;
     color: white;
@@ -119,7 +123,7 @@
 
 /*PLANNING*/
 /* PLANNING COLUMNS */
-.planning .col{
+#planning .col{
     margin-top: 1rem;
     background-color: white;
     color: black;
@@ -128,7 +132,7 @@
     /* height: 20rem; */
 }
 
-.planning .col p{
+#planning .col p{
     font-style: italic;
 }
 

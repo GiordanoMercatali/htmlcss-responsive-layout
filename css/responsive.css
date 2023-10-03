@@ -1,22 +1,22 @@
 /*TABLET*/
 @media screen and (min-width: 768px){
     
-    /*HERO*/
+    /*demo-section*/
     /* ROW */
-    .hero-content .row{
+    .demo-content .row{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: normal;
     }
 
-    /* HERO COLUMNS */
-    .hero-content .col{
+    /* demo-section COLUMNS */
+    .demo-content .col{
         width: calc(100% / 3 - 1rem);
     }
 
     .bigger.col{
-        width: calc(100% / 3 * 2 - 1rem);
+        width: calc(100% / 3 * 2 - 0.5rem);
     }
 
     .bigger img{
@@ -34,8 +34,8 @@
 @media screen and (min-width: 992px){
     
     /* HEADER */
-    .header{
-        padding: 2rem 10rem;
+    .nav{
+        padding: 3rem 10rem;
     }
     
     /* NAV ITEMS */
@@ -47,7 +47,7 @@
         display: inline-block;
     }
 
-    /* HERO */
+    /* demo-section */
     /* COLUMN */
     .bigger.col{
         display: flex;
@@ -63,7 +63,7 @@
     }
 
     /*SECTIONS*/
-    .section-content{
+    .planning-content{
         padding: 3rem 15rem;
         margin: auto;
         color: white;
@@ -71,24 +71,19 @@
 
     /*PLANNING*/
 
-    .planning .col, .planning .section-item{
+    #planning .col, #planning .planning-item{
         width: calc(100% / 2);
     }
 
-    .planning img{
+    #planning img{
         max-width: 100%;
     }
     /*ROW*/
-    .planning .row{
+    #planning .row{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
     }
     /*COLUMN*/
-    .planning .col{
-        position: relative;
-        bottom: 20rem;
-        left: 10rem;
-    }
 }
