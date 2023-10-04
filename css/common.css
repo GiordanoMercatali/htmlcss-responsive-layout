@@ -9,6 +9,10 @@ a{
     padding: 0.25rem 1rem;
 }
 
+.button:not(.about-us-content .button){
+    letter-spacing: 0.2rem;
+}
+
 /* ROW */
 .row{
     display: flex;
